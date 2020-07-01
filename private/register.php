@@ -18,7 +18,7 @@
 
         $error = '';
 
-        if (($correo == '') && ($usuario == '') &&  ($clave == '') && ($clave2 == '')) {
+        if (($correo == '') or ($usuario == '') or  ($clave == '') or ($clave2 == '')) {
             
             $error .= '<i>Favor de rellenar todos los campos</i>';
         }else {
