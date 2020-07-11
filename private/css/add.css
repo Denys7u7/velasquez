@@ -1,5 +1,5 @@
 .image-preview{
-    width: 300px;
+    width: 200px;
     min-height: 100px;
     border: 2px solid #dddddd;
     margin-top: 15px;
@@ -12,5 +12,121 @@
 
 .image{
     display: none;
+    width: 50%;
+    height: 50%;
+}
+
+.container{
+    position: relative;
     width: 100%;
+    background: transparent;
+    margin-left: 3px;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+form h2{ color:#abcc00}
+
+.form .inputBx{
+    margin-bottom: 40px;
+}
+
+.form .inputBx input{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: .25em;
+    font-size: 15px;
+    font-weight: bold;
+    color: #061b3a;
+    letter-spacing: .15em;
+    border-bottom: 2px solid #061b3a;
+}
+
+.form .inputBx select{
+    margin-bottom: 1em;
+    padding: .25em;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid currentcolor;
+    font-weight: bold;
+    letter-spacing: .15em;
+    border-radius: 0;
+}
+
+.form .inputBx input::placeholder{
+    color: #061b3a;
+}
+
+.form .inputBx textarea{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    letter-spacing: .15em;
+    outline: none;
+    padding: .25em;
+    font-size: 18px;
+    font-weight: bold;
+    color: #061b3a;
+    border-bottom: 2px solid #061b3a;
+    min-height: 150px;
+}
+
+.form .inputBx textarea::placeholder{
+    color: #061b3a;
+}
+.form .inputBx input[type="submit"]{
+    width: 150px;
+    background: #abcc00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    border: solid 1px #abcc00;
+}
+
+.form .inputBx input[type="submit"]:hover{
+    color: #abcc00;
+    background: transparent;
+    transition: 0.5s;
+    border: 1px solid #abcc00;
+}
+
+#toggle{
+    position: absolute;
+    top: 16%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(../img/show.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+#toggle.hide{
+    background: url(../img/hide.png);
+    background-size: cover;
+}
+
+#toggle2{
+    position: absolute;
+    top: 58%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(../img/show.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+#toggle2.hide2{
+    background: url(../img/hide.png);
+    background-size: cover;
 }

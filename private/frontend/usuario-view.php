@@ -27,7 +27,7 @@
             <input type="text" name="" id="">
         </div>
         <div class="user-area">
-            <a href="agregarP.php" class="add">+ Agregar</a>
+            <a href="agregarU.php" class="add">+ Agregar</a>
             <a href="cerrar.php">
                 <div class="user-img"></div>
             </a>
@@ -37,7 +37,7 @@
     <section id="content-area">
         <div class="heading">
             <h1>Dashboard</h1>
-            <p>Productos Admin</p>
+            <p>Usuarios Admin</p>
         </div>
 
         <div class="col-md-12">
@@ -49,10 +49,10 @@
                                 NOMBRE
                             </th>
                             <th>
-                                PRECIO
+                                CORREO
                             </th>
                             <th>
-                                DESCRIPCION
+                                USUARIO
                             </th>
                             <th>
                                 IMAGEN
@@ -64,40 +64,20 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span class="logo">1</span> Manita</td>
-                            <td>Java Developer</td>
-                            <td>July 28, 2020</td>
-                            <td>El Salvador</td>
+                            <td><span class="logo">1</span> Matthew Gaitan</td>
+                            <td>ramosmatthew00@gmail.com</td>
+                            <td>matt</td>
+                            <td>Yo</td>
                             <td>
                                 <a href="#" class="action green"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
                                 <a href="#" class="action red"><i class="fa fa-trash" aria-hidden="true"></i></a>
                             </td>
                         </tr>
                         <tr>
-                            <td><span class="logo">2</span> Manita</td>
-                            <td>Java Developer</td>
-                            <td>July 28, 2020</td>
-                            <td>El Salvador</td>
-                            <td>
-                                <a href="#" class="action green"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
-                                <a href="#" class="action red"><i class="fa fa-trash" aria-hidden="true"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><span class="logo">3</span> Manita</td>
-                            <td>Java Developer</td>
-                            <td>July 28, 2020</td>
-                            <td>El Salvador</td>
-                            <td>
-                                <a href="#" class="action green"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
-                                <a href="#" class="action red"><i class="fa fa-trash" aria-hidden="true"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><span class="logo">4</span> Manita</td>
-                            <td>Java Developer</td>
-                            <td>July 28, 2020</td>
-                            <td>El Salvador</td>
+                            <td><span class="logo">2</span> Geovany Marroquin</td>
+                            <td>geovaGay2020@gmail.com</td>
+                            <td>gay</td>
+                            <td>El gay</td>
                             <td>
                                 <a href="#" class="action green"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
                                 <a href="#" class="action red"><i class="fa fa-trash" aria-hidden="true"></i></a>

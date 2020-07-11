@@ -11,9 +11,11 @@
     <section id="sideMenu">
       <h3 class="tittle">Ortopedia<span> Velasquez</span></h3>
       <nav>
-        <a href="principal.php" class="active"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+      <a href="principal.php" class="active"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
+        <a href="productos.php"><i class="fa fa-folder-open" aria-hidden="true"></i>Admin Producto</a>
+        <a href="productos.php"><i class="fa fa-picture-o" aria-hidden="true"></i>Galeria</a>
         <a href="productos.php"><i class="fa fa-cart-plus" aria-hidden="true"></i>Agregar Producto</a>
-        <a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Agregar Usuarios</a>
+        <a href="usuarios.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Agregar Usuarios</a>
         <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Configuracion</a>
       </nav>
     </section>
