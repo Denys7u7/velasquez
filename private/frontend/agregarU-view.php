@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Agregar ususarios</title>
 </head>
+
 <body>
     <section id="sideMenu">
         <h3 class="tittle">Ortopedia<span> Velasquez</span></h3>
@@ -67,7 +69,10 @@
                         <input type="password" name="" id="password2" placeholder="Confirme contraseña">
                         <div id="toggle2" onclick="showHide2();"></div>
                     </p>
-                    <button type="submit">Guardar</button>
+                    <div class="move">
+                        <button type="submit">Guardar</button>
+                        <button type="submit">Cancelar</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -80,27 +85,26 @@
         const toggle = document.getElementById('toggle');
         const toggle2 = document.getElementById('toggle2');
 
-        function showHide(){
-            if(password.type === 'password'){
+        function showHide() {
+            if (password.type === 'password') {
                 password.setAttribute('type', 'text');
                 toggle.classList.add('hide');
-            }
-            else{
+            } else {
                 password.setAttribute('type', 'password');
                 toggle.classList.remove('hide');
             }
         }
 
-        function showHide2(){
-            if(password2.type === 'password'){
+        function showHide2() {
+            if (password2.type === 'password') {
                 password2.setAttribute('type', 'text');
                 toggle2.classList.add('hide2');
-            }
-            else{
+            } else {
                 password2.setAttribute('type', 'password');
                 toggle2.classList.remove('hide2');
             }
         }
     </script>
 </body>
+
 </html>

@@ -67,7 +67,10 @@
                     <p type="Descripcion del producto">
                         <textarea name="description" id="" placeholder="Descripcion"></textarea>
                     </p>
-                    <button>Guardar</button>
+                    <div class="move">
+                        <button type="submit">Guardar</button>
+                        <button type="submit">Cancelar</button>
+                    </div>
                 </form>
             </div>
         </div>

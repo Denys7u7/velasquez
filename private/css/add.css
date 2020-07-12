@@ -61,6 +61,7 @@
     box-sizing:border-box;
     font-family:'Montserrat',sans-serif;
     position:relative;
+    overflow: hidden;
 }
 
 h2{
@@ -139,13 +140,16 @@ p:before{
 
 button{
     padding:8px 25px;
-    margin-left: 40%;
     font-family:'Montserrat',sans-serif;
     border:2px solid #006992;
     background:0;
     color:#5a5a6e;
     cursor:pointer;
     transition:all .3s;
+}
+
+.move{
+    margin-left: 30%;
 }
 
 button:hover{
