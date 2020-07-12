@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Agregar ususarios</title>
 </head>
+
 <body>
     <section id="sideMenu">
         <h3 class="tittle">Ortopedia<span> Velasquez</span></h3>
@@ -24,8 +26,6 @@
 
     <header>
         <div class="search-area">
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <input type="text" name="" id="">
         </div>
         <div class="user-area">
             <a href="agregarP.php" class="add">+ Agregar</a>
@@ -38,42 +38,42 @@
     <section id="content-area">
         <div class="heading">
             <h1>Dashboard</h1>
-            <p>Agregar Productos</p>
+            <p>Agregar Usuarios</p>
         </div>
 
         <div class="col-md-12">
             <div class="row">
-                <div class="container">
-                    <div class="form">
-                        <form action="" method="post">
-                            <h2>Registro de Usuarios</h2>
-                            <div class="inputBx">
-                                <input type="text" name="name" id="" placeholder="Ingrese su email">
-                            </div>
-                            <div class="inputBx">
-                                <input type="text" name="user" id="" placeholder="Ingrese su email">
-                            </div>
-                            <div class="inputBx">
-                                <input type="email" name="email" id="" placeholder="Ingrese su email">
-                            </div>
-                            <div class="inputBx">
-                                <input type="password" name="" id="password" placeholder="Ingrese contraseña">
-                                <div id="toggle" onclick="showHide();"></div>
-                            </div>
-                            <div class="inputBx">
-                                <input type="password" name="" id="password2" placeholder="Ingrese contraseña">
-                                <div id="toggle2" onclick="showHide2();"></div>
-                            </div>
-                            <div class="inputBx">
-                                <input type="file" name="photo" id="inFile">
-                                <div class="image-preview" id="imagePreview">
-                                    <img src="" alt="Image Preview" class="image">
-                                    <span class="default-text">Image Preview</span>
-                                </div>
-                            </div>
-                        </form>
+                <form class="form">
+                    <h2>AGREGAR USUARIOS</h2>
+                    <p type="Nombre:">
+                        <input placeholder="Ingrese su nombre aqui..">
+                    </p>
+                    <p type="Usuario:">
+                        <input placeholder="Ingrese su nombre de usuario..">
+                    </p>
+                    <p type="Email:">
+                        <input placeholder="Ingrese su correo..">
+                    </p>
+                    <p type="Seleccione una imagen">
+                        <input type="file" name="photo" id="inFile">
+                        <div class="image-preview" id="imagePreview">
+                            <img src="" alt="Image Preview" class="image">
+                            <span class="default-text">Image Preview</span>
+                        </div>
+                    </p>
+                    <p type="Ingrese contraseña">
+                        <input type="password" name="" id="password" placeholder="Ingrese contraseña">
+                        <div id="toggle" onclick="showHide();"></div>
+                    </p>
+                    <p type="Confirmar Contraseña:">
+                        <input type="password" name="" id="password2" placeholder="Confirme contraseña">
+                        <div id="toggle2" onclick="showHide2();"></div>
+                    </p>
+                    <div class="move">
+                        <button type="submit">Guardar</button>
+                        <button type="submit">Cancelar</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
@@ -85,27 +85,26 @@
         const toggle = document.getElementById('toggle');
         const toggle2 = document.getElementById('toggle2');
 
-        function showHide(){
-            if(password.type === 'password'){
+        function showHide() {
+            if (password.type === 'password') {
                 password.setAttribute('type', 'text');
                 toggle.classList.add('hide');
-            }
-            else{
+            } else {
                 password.setAttribute('type', 'password');
                 toggle.classList.remove('hide');
             }
         }
 
-        function showHide2(){
-            if(password2.type === 'password'){
+        function showHide2() {
+            if (password2.type === 'password') {
                 password2.setAttribute('type', 'text');
                 toggle2.classList.add('hide2');
-            }
-            else{
+            } else {
                 password2.setAttribute('type', 'password');
                 toggle2.classList.remove('hide2');
             }
         }
     </script>
 </body>
+
 </html>

@@ -43,38 +43,35 @@
 
         <div class="col-md-12">
             <div class="row">
-                <div class="container">
-                    <div class="form">
-                        <form action="" method="post">
-                            <h2>Registro de Productos</h2>
-                            <div class="inputBx">
-                                <input type="file" name="photo" id="inFile">
-                                <div class="image-preview" id="imagePreview">
-                                    <img src="" alt="Image Preview" class="image">
-                                    <span class="default-text">Image Preview</span>
-                                </div>
-                            </div>
-                            <div class="inputBx">
-                                <input type="text" name="name" id="" placeholder="Nombre del Porducto">
-                            </div>
-                            <div class="inputBx">
-                                <select name="category" id="">
-                                    <option value="ortesis">Ortesis</option>
-                                    <option value="ortesis">Protesis</option>
-                                </select>
-                            </div>
-                            <div class="inputBx">
-                                <input type="text" name="price" id="" placeholder="Precio">
-                            </div>
-                            <div class="inputBx">
-                                <textarea name="description" id="" placeholder="Descripcion"></textarea>
-                            </div>
-                            <div class="inputBx">
-                                <input type="submit" name="" value="Guardar">
-                            </div>
-                        </form>
+                <form class="form">
+                    <h2>AGREGAR PRODUCTOS</h2>
+                    <p type="Nombre del Producto:">
+                        <input type="text" name="name" id="" placeholder="Nombre del Porducto">
+                    </p>
+                    <p type="Seleccione la categoria:">
+                        <select name="category" id="">
+                            <option value="ortesis">Ortesis</option>
+                            <option value="ortesis">Protesis</option>
+                        </select>
+                    </p>
+                    <p type="Precio:">
+                        <input type="number" name="price" id="" placeholder="Precio">
+                    </p>
+                    <p type="Seleccione una imagen">
+                        <input type="file" name="photo" id="inFile">
+                        <div class="image-preview" id="imagePreview">
+                            <img src="" alt="Image Preview" class="image">
+                            <span class="default-text">Image Preview</span>
+                        </div>
+                    </p>
+                    <p type="Descripcion del producto">
+                        <textarea name="description" id="" placeholder="Descripcion"></textarea>
+                    </p>
+                    <div class="move">
+                        <button type="submit">Guardar</button>
+                        <button type="submit">Cancelar</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
